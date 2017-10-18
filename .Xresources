@@ -86,8 +86,11 @@ URxvt*background: #002b36
 !!URxvt*boldFont: xft:Terminus:bold:pixelsize=15,xft:Inconsolata\ for\ Powerline:bold:size=15
 
 !! Tamsyn
-URxvt*font:		xft:Tamzen:pixelsize=16,xft:TamzenForPowerline:pixelsize=16
-URxvt*boldFont:		xft:Tamsyn:bold:pixelsize=16,xft:TamzenForPowerline:bold:pixelsize=16
+
+urxvt*font: xft:Inconsolata\ for\ Powerline:size=13
+
+!!URxvt*font:		xft:Tamzen:pixelsize=16,xft:TamzenForPowerline:pixelsize=16
+!!URxvt*boldFont:		xft:Tamzen:bold:pixelsize=16,xft:TamzenForPowerline:bold:pixelsize=16
 
 URxvt*letterSpace: -1
 
@@ -100,4 +103,13 @@ URxvt*scrollBar_right: true
 !!# scrollbar style - rxvt (default), plain, next, or xterm
 URxvt*scrollstyle: plain
 
-
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! Based on Adapta-Nokto GTK theme (https://github.com/adapta-project/adapta-gtk-theme)  
+! Copyright: PyGeek03
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #3a4c54, #2a373e, #c3c6c8
+rofi.color-normal: #455a64, #fafbfc, #455a64, #00bcd4, #fafbfc
+rofi.color-active: #455a64, #00bcd4, #455a64, #009688, #fdf6e3
+rofi.color-urgent: #455a64, #ff5252, #455a64, #ff5252, #fdf6e3
